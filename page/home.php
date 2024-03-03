@@ -18,8 +18,15 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
         <title>Document</title>
     </head>
     <body>
-        <h1>Hello, <?php echo $_SESSION[ 'name' ]; ?></h1>
-        <a href="/php/logout.php">Log out</a>
+        <div class="container">
+            <div class="containerHome">
+                <img src="/assets/1705541_242700-P3EY14-664.png" alt="under development"/>
+                <h1>Hello, <?php echo $_SESSION[ 'name' ]; ?></h1>
+                <a href="/php/logout.php">Log out</a>
+            </div>
+            
+        </div>
+        
     </body>
     </html>
     <?php
