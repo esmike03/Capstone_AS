@@ -1,12 +1,7 @@
-<?php
-session_start();
-
-if(isset($_SESSION['id']) && isset($_SESSION['name'])){
-    ?>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,16 +9,13 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css"/>
-    <link rel="icon" href="assets/BISU-LOGO.png"/>
-        <title>Document</title>
-    </head>
-    <body>
-        <h1>Hello, <?php echo $_SESSION[ 'name' ]; ?></h1>
-        <a href="/php/logout.php">Log out</a>
-    </body>
-    </html>
-    <?php
-}else{
-    header("Location: index.php");
-    exit();
-}
+    <link rel="icon" href="/assets/BISU-LOGO.png"/>
+    <title>Forgot Password</title>
+</head>
+<body>
+    <div class="containerForgot">
+        <img src="/assets/1584487_220880-P1KV8O-112.png" alt="under maintenance"/><br>
+        <h1><span class="yellowback">Under Development!</span>  <span>Please come back later.</span></h1><br/>
+    </div>
+</body>
+</html>

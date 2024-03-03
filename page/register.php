@@ -87,12 +87,13 @@
                                     <label>Course</label><br>
                                     <select name="course" class="select" required>
                                         <option value="none">Select...</option>
-                                        <option value="Course 1">Course 1</option>
-                                        <option value="Course 2">Course 2</option>
-                                        <option value="Course 3">Course 3</option>
-                                        <option value="Course 4">Course 4</option>
-                                        <option value="Course 5">Course 5</option>
-                                        <option value="Course 6">Course 6</option>
+                                        <option value="BS in Information Technology">Bachelor of Science in Information Technology</option>
+                                        <option value="BS in Computer Science">Bachelor of Science in Computer Science</option>
+                                        <option value="BS in Electrical Technology">Bachelor of Science in Electrical Technology</option>
+                                        <option value="BS in Electronics Technology">Bachelor of Science in Electronics Technology</option>
+                                        <option value="BS in Industrial Technology major in Food preparation and Service management">Bachelor of Science in Industrial Technology major in Food Preparation and Service Management</option>
+                                        <option value="BS in Industrial Technology major in Garments Technology">Bachelor of Science in Industrial Technology major in Garments Technology</option>
+                                        <option value="BS in Criminology">Bachelor of Science in Criminology</option>
                                     </select>
                                 </div>
                             </div>

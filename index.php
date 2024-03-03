@@ -44,7 +44,7 @@
                                 <label>Remember me</label>
                             </div>
                             <div>
-                                <a href="#">forgot password?</a>
+                                <a href="/page/forgot.php">forgot password?</a>
                             </div>
                             
                         </div>
