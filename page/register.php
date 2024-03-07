@@ -1,4 +1,4 @@
-<?php require '/xampp/htdocs/RegistrarAppointmentSystem/php/adata.php'; ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css"/>
+    <script src="/script.js"></script>
     <link rel="icon" href="/assets/BISU-LOGO.png"/>
     <title>Register-BISU Registrar Appointment</title>
 </head>
@@ -25,7 +26,7 @@
     <section>
         <div class="container">
                 
-                    <form action="" method="POST" class="registerForm">
+                    <form action="/php/adata.php" method="POST" class="registerForm">
                         <h3>Please fill in the required fields!</h3>
 
                             <div >
@@ -78,7 +79,7 @@
                                     <label>BISU Email</label>
                                     <?php
                                             if (isset($email_error)) {
-                                            echo '<label class="passerror">' . $email_error . '</label>'; }
+                                            echo '<label id="error-message" class="passerror">' . $email_error . '</label>'; }
                                         ?>
                                     <br>
                                     <input type="email" name="email" placeholder="example@bisu.edu.ph" required autofocus/><br>
@@ -124,7 +125,7 @@
                                     
                                 </div>
                                 <div>
-                                    <a href="/index.php" class="loglnk">Log In</a>
+                                    <a href="/key.php" class="loglnk">Log In</a>
                                     <button type="submit" name="record" class="regbtn">
                                         REGISTER
                                     </button>

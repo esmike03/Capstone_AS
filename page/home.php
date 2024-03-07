@@ -14,8 +14,8 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css"/>
-    <link rel="icon" href="assets/BISU-LOGO.png"/>
-        <title>Document</title>
+    <link rel="icon" href="/assets/BISU-LOGO.png"/>
+        <title>BISU Registrar Appointment</title>
     </head>
     <body>
         <div class="container">
@@ -31,6 +31,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
     </html>
     <?php
 }else{
-    header("Location: index.php");
+    header("Location: key.php");
     exit();
 }
