@@ -1,6 +1,5 @@
 <?php
-
-$conn = new mysqli('localhost', 'root', '', 'registrarappointment');
+include "db-conn.php";
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -55,7 +54,7 @@ if (isset($_POST['record'])) {
                 if ($stmt->affected_rows == 1) {
                     $record_success = "Password hashed successfully";
                     // Redirect to the login page
-                    header("Location: login.php");
+                    header("Location: /key.php");
                     exit(); // Ensure that no further code is executed after the redirection
                 } else {
                     $record_error = "Something went wrong!";

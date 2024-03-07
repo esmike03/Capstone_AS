@@ -1,8 +1,8 @@
 <?php
-    $sname = "localhost";
-    $uname = 'root';
-    $password = "";
-    $db_name = "registrarappointment";
+    $sname = "sql309.infinityfree.com";
+    $uname = 'sql309.infinityfree.com';
+    $password = "VkVvXf9D7rn1";
+    $db_name = "if0_36111685_registrarappointment";
     
     $conn = mysqli_connect($sname, $uname, $password, $db_name);
 
