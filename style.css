@@ -15,10 +15,10 @@ footer p{
 }
 h1{
     color: #341537;
-    font-size: 1.6em;
+    font-size: 2.3em;
 }
 h2{
-    font-size: 2.3em;
+    font-size: 2.0em;
 }
 .container{
     display: flex;
@@ -33,8 +33,8 @@ h2{
     width: 100vw;
 }
 .containerHome img{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     object-fit: contain;
 }
 .containerForgot{
@@ -45,8 +45,8 @@ h2{
     width: 100vw;
 }
 .containerForgot img{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     object-fit: contain;
 }
 .yellowback{
@@ -56,7 +56,7 @@ h2{
     color: white;
 }
 header{
-    margin: 15px;
+    margin: 10px;
 }
 .container-form{
     color: rgb(24, 24, 24);
@@ -168,6 +168,16 @@ form.registerForm .select{
     margin-right: 24px ;
     font-size: 11px;
     color: red;
+    float: right;
+}
+.emailerror{
+    font-size: 11px;
+    color: red;
+    float: right;
+}
+.emailcorrect{
+    font-size: 11px;
+    color: rgb(0, 255, 8);
     float: right;
 }
 
